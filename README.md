@@ -43,8 +43,8 @@ Steps taken by user
       of the selection they chose within the prompts.
     
 ### Code
-![Changed HTML](./assets/images/code1.png)
-![Changed HTML](./assets/images/code3.png)
+![Changed HTML](./ScreenshotCode.png)
+
 
 ### Website Password Generator
 ![Changed HTML](./screenshotPWGenerator.png)
@@ -53,4 +53,4 @@ Steps taken by user
 ![Changed HTML](./ScreenshotPrompt.png)
 
 ### Password showing in text box
-![Changed HTML](./ScreenshotPasswordOutput.png)
+![Changed HTML](./ScreenshotPWoutput.png)

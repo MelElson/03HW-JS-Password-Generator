@@ -24,8 +24,7 @@ var generatePassword = function() {
  
  var length = Number(prompt("Choose between 8-128 characters. How many characters would you like your password to be?"))
   
-  while (isNaN(length) || length < 8 || length > 128) length = Number(prompt("Choose between 8-128 characters. How many characters would you like your password to be?"));
-
+  while (isNaN(length) || length < 8 || length > 128) length = Number 
   //do I want special characters
  var userChoiceSpecChar = window.confirm("Do you want SPECIAL CHARACTERS for your password? Ok for yes, Cancel for no ");
   if (userChoiceSpecChar == true || userChoiceSpecChar ==null) {
