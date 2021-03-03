@@ -46,10 +46,11 @@ Steps taken by user
 ![Changed HTML](./assets/images/code1.png)
 ![Changed HTML](./assets/images/code3.png)
 
-### Website Navbar
-![Changed HTML](./assets/images/navbar.png)
-### Examples of Work
-![Changed HTML](./assets/images/examplesofwork.png)
+### Website Password Generator
+![Changed HTML](./screenshotPWGenerator.png)
 
-### Website Snapshot
-![Changed HTML](./assets/images/screenshotportfolio.png)
+### Example Prompt
+![Changed HTML](./ScreenshotPrompt.png)
+
+### Password showing in text box
+![Changed HTML](./ScreenshotPasswordOutput.png)
