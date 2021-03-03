@@ -22,12 +22,12 @@ var generatePassword = function() {
  
  // prompt Length of password? answer number
  
- var length = Number(prompt("How many characters password?"))
+ var length = Number(prompt("Choose between 8-128 characters. How many characters would you like your password to be?"))
   
   while (isNaN(length) || length < 8 || length > 128) length = Number(prompt("Choose between 8-128 characters. How many characters would you like your password to be?"));
 
   //do I want special characters
- var userChoiceSpecChar = window.confirm("Do you want SPECIAL CHARACTERS for your password?");
+ var userChoiceSpecChar = window.confirm("Do you want SPECIAL CHARACTERS for your password? Ok for yes, Cancel for no ");
   if (userChoiceSpecChar == true || userChoiceSpecChar ==null) {
     options = options.concat(special) 
     guarenteedOptions.push(random(special))
@@ -36,7 +36,7 @@ var generatePassword = function() {
     
 
   //Do I want upppercase
-  var userChoiceUpper = window.confirm("Do you want UPPERCASE for your password?");
+  var userChoiceUpper = window.confirm("Do you want UPPERCASE for your password? Ok for yes, Cancel for no ");
   if (userChoiceUpper == true || userChoiceUpper ==null) {
     options = options.concat(upper)
     guarenteedOptions.push(random(upper))
@@ -45,14 +45,14 @@ var generatePassword = function() {
 
   //Do I want lowercase
 
-  var userChoicelower = window.confirm("Do you want LOWERCASE for your password?");
+  var userChoicelower = window.confirm("Do you want LOWERCASE for your password? Ok for yes, Cancel for no ");
   if (userChoicelower == true || userChoicelower ==null) {
     options = options.concat(lower)
     guarenteedOptions.push(random(lower))
     userChoicelower ="";
   } 
   //Do I want number 
-  var userChoiceNumber = window.confirm("Do you want NUMBERS for your password?");
+  var userChoiceNumber = window.confirm("Do you want NUMBERS for your password? Ok for yes, Cancel for no ");
   if (userChoiceNumber == true || userChoiceNumber ==null) {
     options = options.concat(number) 
     guarenteedOptions.push(random(number))
