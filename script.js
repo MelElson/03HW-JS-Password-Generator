@@ -38,7 +38,7 @@ var generatePassword = function() {
 
   //Do I want lowercase
 
-  var userChoicelower = window.confirm("Do you want uppercase for your password?");
+  var userChoicelower = window.confirm("Do you want lowercase for your password?");
   if (userChoicelower == true) {
     options = options.concat(lower)
     guarenteedOptions.push(random(lower))
