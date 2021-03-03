@@ -25,8 +25,8 @@ The purpose of this task is to create password generator that will produce a pas
 The site uses HTML and CSS code
 
 ## Installation
-To access the website go to https://melelson.github.io/02HW-Adv-CSS-Portfolio/
-To clone https://github.com/MelElson/02HW-Adv-CSS-Portfolio
+To access the website go to https://melelson.github.io/03HW-JS-Password-Generator/
+To clone https://github.com/MelElson/03HW-JS-Password-Generator
 
 
 # Collaboration 
