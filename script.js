@@ -23,14 +23,14 @@ var generatePassword = function() {
   while (isNaN(length) || length < 8 || length > 128) length = Number(prompt("Choose between 8-128 characters. How many characters would you like your password to be?"));
 
   //do I want special characters
- var userChoiceSpecChar = window.confirm("Do you want special characters for your password?");
+ var userChoiceSpecChar = window.confirm("Do you want SPECIAL CHARACTERS for your password?");
   if (userChoiceSpecChar == true) {
     options = options.concat(special) 
     guarenteedOptions.push(random(special))
   }
 
   //Do I want upppercase
-  var userChoiceUpper = window.confirm("Do you want uppercase for your password?");
+  var userChoiceUpper = window.confirm("Do you want UPPERCASE for your password?");
   if (userChoiceUpper == true) {
     options = options.concat(upper)
     guarenteedOptions.push(random(upper))
@@ -38,13 +38,13 @@ var generatePassword = function() {
 
   //Do I want lowercase
 
-  var userChoicelower = window.confirm("Do you want lowercase for your password?");
+  var userChoicelower = window.confirm("Do you want LOWERCASE for your password?");
   if (userChoicelower == true) {
     options = options.concat(lower)
     guarenteedOptions.push(random(lower))
   }
   //Do I want number 
-  var userChoiceNumber = window.confirm("Do you want numbers for your password?");
+  var userChoiceNumber = window.confirm("Do you want NUMBERS for your password?");
   if (userChoiceNumber == true) {
     options = options.concat(number) 
     guarenteedOptions.push(random(number))
