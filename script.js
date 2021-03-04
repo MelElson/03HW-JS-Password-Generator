@@ -26,7 +26,8 @@ var generatePassword = function () {
 
   if (isNaN(length) || length < 8 || length > 128) {
 
-    alert("Please enter a valid number...");
+    document.querySelector("#password");
+    passwordText.value = password;
   }
 
 
